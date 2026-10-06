@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.kde.kwin.forcekill
+Exec=/usr/bin/python3 __USER_HOME__/.local/bin/kwin-force-kill-helper.py

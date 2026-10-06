@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "snelow",
+                "Email": "snelow@users.noreply.github.com"
+            }
+        ],
+        "Description": "Adds Force Kill Process option to Alt+F3 Window Operations Menu",
+        "Icon": "process-stop",
+        "Id": "forcekill",
+        "License": "GPL-3.0-or-later",
+        "Name": "Force Kill Process",
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "javascript"
+}
