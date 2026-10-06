@@ -15,7 +15,6 @@ mkdir -p ~/.local/share/kwin/scripts/forcekill
 cp "$SCRIPT_DIR/dbus-service/kwin-force-kill-helper.py" ~/.local/bin/kwin-force-kill-helper.py
 chmod +x ~/.local/bin/kwin-force-kill-helper.py
 
-# Replace __USER_HOME__ with the actual home directory of whoever runs install.sh
 sed "s|__USER_HOME__|$HOME|g" "$SCRIPT_DIR/dbus-service/org.kde.kwin.forcekill.service" > ~/.local/share/dbus-1/services/org.kde.kwin.forcekill.service
 cp "$SCRIPT_DIR/systemd/kwin-force-kill.service" ~/.config/systemd/user/
 
